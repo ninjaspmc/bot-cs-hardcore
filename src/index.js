@@ -10,10 +10,10 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/", (_, res) => res.sendFile(__dirname + "/index.html"));
+app.get("/", (_, res) => res.sendFile(__dirname + "/public/index.html"));
 
 setInterval(() => {
-  http.get(`https://vercel.app`); // Insira aqui a URL gerada pelo Vercel, ele sempre termina em "vercel.app"
+  http.get(`https://bot-server-minecraft.vercel.app`); // Insira aqui a URL gerada pelo Vercel, ele sempre termina em "vercel.app"
 }, 224000);
 
 function createBot () {
