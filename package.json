@@ -1,10 +1,10 @@
 {
-  "name": "nodejs",
+  "name": "bot-server-minecraft",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Script de manter um servidor de Aternos on 24h por dia com um bot simulando um player",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo 'No build step required'"
   },
